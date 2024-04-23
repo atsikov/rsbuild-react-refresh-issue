@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "jsx": "react",
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false,
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*"]
+}

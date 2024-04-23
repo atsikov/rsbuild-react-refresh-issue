@@ -1,0 +1,21 @@
+{
+  "name": "rspack-react-refresh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rsbuild dev"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "0.6.6",
+    "@rsbuild/plugin-react": "0.6.6",
+    "@types/node": "20.12.7",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
